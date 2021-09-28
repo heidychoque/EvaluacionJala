@@ -71,7 +71,20 @@ namespace AssessmentConsole
                 if (option == "4") 
                 {
                     pagination.LastPage();
-                } else if (option == "0")
+                } 
+                else if (option == "1"){
+                    pagination.FirstPage();
+                }
+                else if (option == "2"){
+                    pagination.NextPage();
+                }
+                else if (option == "3"){
+                    pagination.PrevPage();
+                }
+                else if (option == "4"){
+                    pagination.LastPage();
+                }
+                else if (option == "0")
                 {
                     exit = true;
                 }
